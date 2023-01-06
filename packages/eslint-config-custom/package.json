@@ -4,13 +4,23 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.23.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.31.8",
-    "eslint-config-turbo": "latest"
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-react": "7.31.8"
   },
   "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "lint-staged": "^13.1.0",
     "typescript": "^4.7.4"
   },
   "publishConfig": {

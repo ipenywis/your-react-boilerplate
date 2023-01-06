@@ -1,0 +1,5 @@
+{
+  "apps/**/*.{js,ts,jsx,tsx}": ["yarn lint"],
+  "packages/ui/**/*.{js,ts,jsx,tsx}": ["yarn lint"],
+  "*.json": ["prettier --write"]
+}
