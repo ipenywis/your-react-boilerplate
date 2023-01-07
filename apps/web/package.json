@@ -45,6 +45,7 @@
     "babel-plugin-macros": "^3.1.0",
     "eslint": "7.32.0",
     "eslint-config-custom": "*",
+    "msw": "^0.49.2",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   },
@@ -56,5 +57,8 @@
         "from": "@emotion/styled"
       }
     }
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
