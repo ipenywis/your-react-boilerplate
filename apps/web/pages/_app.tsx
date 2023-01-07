@@ -1,6 +1,7 @@
 import { AppProps } from "next/app";
 import "../globals.css";
 import { GlobalStyles } from "twin.macro";
+import { ChakraProvider } from "ui";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp(props: AppProps) {
@@ -9,7 +10,9 @@ export default function MyApp(props: AppProps) {
   return (
     <>
       <GlobalStyles />
-      <Component {...pageProps} />;
+      <ChakraProvider>
+        <Component {...pageProps} />;
+      </ChakraProvider>
     </>
   );
 }

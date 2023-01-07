@@ -1,5 +1,7 @@
 import { Button } from "ui";
+// import tw, { styled } from "twin.macro";
 import tw from "twin.macro";
+
 import styled from "@emotion/styled";
 
 // const Title = tw.h1`
@@ -17,11 +19,11 @@ const StyledTitle = styled.h1`
 export default function Web() {
   return (
     <div>
-      <StyledTitle>Hola</StyledTitle>
+      <StyledTitle data-testid="title">Hola</StyledTitle>
       <h1 className="bg-red-500">Web</h1>
       <h2>Hola there</h2>
       <h3>Boom</h3>
-      <Button />
+      <Button variant="outline">Click me!</Button>
     </div>
   );
 }
