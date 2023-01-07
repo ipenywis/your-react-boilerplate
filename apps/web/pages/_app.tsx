@@ -4,9 +4,7 @@ import { GlobalStyles } from "twin.macro";
 import { ChakraProvider } from "ui";
 
 /* eslint-disable global-require */
-if (process.env.NEXT_PUBLIC_API_MOCKING === "enabled") {
-  require("../mocks");
-}
+require("../mocks");
 /* eslint-enable global-require */
 
 // This default export is required in a new `pages/_app.js` file.

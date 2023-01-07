@@ -1,29 +1,21 @@
 import { Button } from "ui";
-// import tw, { styled } from "twin.macro";
-import tw from "twin.macro";
+import { useRouter } from "next/router";
 
-import styled from "@emotion/styled";
+export default function About() {
+  const router = useRouter();
 
-// const Title = tw.h1`
-//   text-7xl
-//   text-blue-500
-// `;
-
-const StyledTitle = styled.h1`
-  ${tw`
-    text-8xl
-    text-green-500
-  `};
-`;
-
-export default function Web() {
   return (
-    <div>
-      <StyledTitle data-testid="title">Hola</StyledTitle>
-      <h1 className="bg-red-500">Web</h1>
-      <h2>Hola there</h2>
-      <h3>Boom</h3>
-      <Button variant="outline">Click me!</Button>
+    <div className="flex flex-col items-center justify-center h-full text-white font-bold p-6">
+      <h1 className="text-5xl">Welcome to the Outer Space 🛰</h1>
+      <Button
+        data-testid="signup-link"
+        variant="outline"
+        className="mt-10 text-2xl"
+        color="blue.300"
+        onClick={() => router.push("/signup")}
+      >
+        Signup Now!
+      </Button>
     </div>
   );
 }

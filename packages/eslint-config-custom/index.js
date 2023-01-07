@@ -12,5 +12,6 @@ module.exports = {
     "import/prefer-default-export˘": "off",
     "import/prefer-default-export": "warn",
     "react/jsx-props-no-spreading": "off",
+    "no-unneeded-ternary": "off",
   },
 };
