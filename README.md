@@ -1,4 +1,13 @@
-# Turborepo starter
+![Senior React Project Setup](/images/project-setup.png)
+
+# React Pro Boilerplate
+
+This Project setup and the motivation behind it is explained in the CoderOne youtube channel.
+Setup Video: https://youtu.be/nm8UWffANOc
+
+---
+
+## Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
 
